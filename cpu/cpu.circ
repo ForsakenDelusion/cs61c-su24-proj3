@@ -125,6 +125,11 @@
       <a name="label" val="t2"/>
       <a name="width" val="32"/>
     </comp>
+    <comp lib="0" loc="(1240,910)" name="Tunnel">
+      <a name="facing" val="south"/>
+      <a name="label" val="AluSel"/>
+      <a name="width" val="4"/>
+    </comp>
     <comp lib="0" loc="(1290,480)" name="Tunnel">
       <a name="facing" val="east"/>
       <a name="label" val="rs1out"/>
@@ -148,9 +153,9 @@
       <a name="label" val="s0"/>
       <a name="width" val="32"/>
     </comp>
-    <comp lib="0" loc="(1360,680)" name="Constant">
+    <comp lib="0" loc="(1360,660)" name="Tunnel">
       <a name="facing" val="north"/>
-      <a name="value" val="0x0"/>
+      <a name="label" val="AluSel"/>
       <a name="width" val="4"/>
     </comp>
     <comp lib="0" loc="(1410,190)" name="Pin">
@@ -321,6 +326,10 @@
       <a name="label" val="rs1"/>
       <a name="width" val="5"/>
     </comp>
+    <comp lib="0" loc="(590,510)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="label" val="RegWE"/>
+    </comp>
     <comp lib="0" loc="(650,490)" name="Tunnel">
       <a name="facing" val="east"/>
       <a name="label" val="alures"/>
@@ -330,7 +339,6 @@
       <a name="facing" val="east"/>
       <a name="label" val="clk"/>
     </comp>
-    <comp lib="0" loc="(670,510)" name="Constant"/>
     <comp lib="0" loc="(670,750)" name="Tunnel">
       <a name="facing" val="east"/>
       <a name="label" val="Instruction"/>
@@ -340,6 +348,11 @@
       <a name="facing" val="east"/>
       <a name="label" val="rd"/>
       <a name="width" val="5"/>
+    </comp>
+    <comp lib="0" loc="(760,920)" name="Tunnel">
+      <a name="facing" val="south"/>
+      <a name="label" val="Instruction"/>
+      <a name="width" val="32"/>
     </comp>
     <comp lib="0" loc="(790,130)" name="Pin">
       <a name="appearance" val="classic"/>
@@ -363,6 +376,10 @@
       <a name="facing" val="north"/>
       <a name="label" val="ra"/>
       <a name="width" val="32"/>
+    </comp>
+    <comp lib="0" loc="(890,920)" name="Tunnel">
+      <a name="facing" val="south"/>
+      <a name="label" val="RegWE"/>
     </comp>
     <comp lib="0" loc="(910,760)" name="Tunnel">
       <a name="label" val="immout"/>
@@ -473,12 +490,13 @@
     <wire from="(1140,190)" to="(1140,220)"/>
     <wire from="(1160,210)" to="(1210,210)"/>
     <wire from="(1230,190)" to="(1230,220)"/>
+    <wire from="(1240,910)" to="(1240,930)"/>
     <wire from="(1250,210)" to="(1300,210)"/>
     <wire from="(1290,480)" to="(1320,480)"/>
     <wire from="(1290,600)" to="(1320,600)"/>
     <wire from="(1320,190)" to="(1320,220)"/>
     <wire from="(1340,210)" to="(1390,210)"/>
-    <wire from="(1360,640)" to="(1360,680)"/>
+    <wire from="(1360,640)" to="(1360,660)"/>
     <wire from="(1400,540)" to="(1420,540)"/>
     <wire from="(1410,190)" to="(1410,220)"/>
     <wire from="(1430,210)" to="(1480,210)"/>
@@ -521,10 +539,10 @@
     <wire from="(520,200)" to="(590,200)"/>
     <wire from="(590,220)" to="(590,260)"/>
     <wire from="(590,430)" to="(690,430)"/>
+    <wire from="(590,510)" to="(690,510)"/>
     <wire from="(590,70)" to="(590,180)"/>
     <wire from="(650,490)" to="(690,490)"/>
     <wire from="(660,530)" to="(690,530)"/>
-    <wire from="(670,510)" to="(690,510)"/>
     <wire from="(670,750)" to="(680,750)"/>
     <wire from="(680,470)" to="(690,470)"/>
     <wire from="(680,750)" to="(680,760)"/>
@@ -532,10 +550,12 @@
     <wire from="(760,210)" to="(770,210)"/>
     <wire from="(760,90)" to="(1560,90)"/>
     <wire from="(760,90)" to="(760,210)"/>
+    <wire from="(760,920)" to="(760,930)"/>
     <wire from="(790,130)" to="(790,220)"/>
     <wire from="(810,210)" to="(850,210)"/>
     <wire from="(870,190)" to="(870,220)"/>
     <wire from="(890,210)" to="(940,210)"/>
+    <wire from="(890,920)" to="(890,930)"/>
     <wire from="(910,430)" to="(920,430)"/>
     <wire from="(910,450)" to="(920,450)"/>
     <wire from="(910,470)" to="(920,470)"/>

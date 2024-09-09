@@ -123,7 +123,7 @@
       <circ-port dir="in" pin="200,310" x="190" y="290"/>
       <circ-port dir="out" pin="1180,240" x="230" y="190"/>
     </appear>
-    <comp lib="0" loc="(1100,910)" name="Tunnel">
+    <comp lib="0" loc="(1100,930)" name="Tunnel">
       <a name="facing" val="north"/>
       <a name="label" val="ALUSel"/>
       <a name="width" val="4"/>
@@ -753,7 +753,7 @@
     <wire from="(1060,730)" to="(1080,730)"/>
     <wire from="(1070,340)" to="(1070,720)"/>
     <wire from="(1070,720)" to="(1080,720)"/>
-    <wire from="(1100,880)" to="(1100,910)"/>
+    <wire from="(1100,880)" to="(1100,930)"/>
     <wire from="(1120,800)" to="(1130,800)"/>
     <wire from="(1160,160)" to="(1160,220)"/>
     <wire from="(1160,160)" to="(1360,160)"/>
